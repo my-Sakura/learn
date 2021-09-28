@@ -52,3 +52,6 @@
 [submodule "go-yuque-api"]
 	path = go-yuque-api
 	url = https://github.com/my-Sakura/go-yuque-api.git
+[submodule "mini-examination"]
+	path = mini-examination
+	url = https://github.com/my-Sakura/mini-examination.git
