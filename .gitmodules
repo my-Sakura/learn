@@ -7,3 +7,6 @@
 [submodule "telegram_translate_bot"]
 	path = telegram_translate_bot
 	url = https://github.com/my-Sakura/telegram_translate_bot.git
+[submodule "go-telegram-bot"]
+	path = go-telegram-bot
+	url = https://github.com/my-Sakura/go-telegram-bot.git
