@@ -13,3 +13,6 @@
 [submodule "push-box"]
 	path = push-box
 	url = https://github.com/my-Sakura/push-box.git
+[submodule "chatroom"]
+	path = chatroom
+	url = https://github.com/my-Sakura/chatroom.git
