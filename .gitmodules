@@ -49,3 +49,6 @@
 [submodule "tour-of-the-rust"]
 	path = tour-of-the-rust
 	url = https://github.com/my-Sakura/tour-of-the-rust.git
+[submodule "go-yuque-api"]
+	path = go-yuque-api
+	url = https://github.com/my-Sakura/go-yuque-api.git
