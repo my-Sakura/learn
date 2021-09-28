@@ -10,3 +10,6 @@
 [submodule "go-telegram-bot"]
 	path = go-telegram-bot
 	url = https://github.com/my-Sakura/go-telegram-bot.git
+[submodule "push-box"]
+	path = push-box
+	url = https://github.com/my-Sakura/push-box.git
