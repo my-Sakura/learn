@@ -58,3 +58,6 @@
 [submodule "vercel-stock"]
 	path = vercel-stock
 	url = https://github.com/my-Sakura/vercel-stock.git
+[submodule "vercel"]
+	path = vercel
+	url = https://github.com/my-Sakura/vercel.git
