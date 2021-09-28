@@ -19,3 +19,6 @@
 [submodule "chart"]
 	path = chart
 	url = https://github.com/my-Sakura/chart.git
+[submodule "docker-echart"]
+	path = docker-echart
+	url = https://github.com/my-Sakura/docker-echart.git
