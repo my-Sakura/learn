@@ -1,0 +1,43 @@
+version: "3"
+services:
+  # mysql
+  mysql:
+    container_name: pro-mysql
+    image: mysql
+    ports:
+      - "3306:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=123456
+      - MYSQL_DATABASE=mysql
+  # mysql-exporter
+  mysqlexporter:
+    container_name: pro-mysql-exporter
+    image: prom/mysqld-exporter
+    ports:
+      - "9104:9104"
+    environment:
+      # 要监控的 MySQL 数据库
+      - DATA_SOURCE_NAME=root:123456@(192.168.0.252:3306)/mysql
+  # Prometheus
+  prometheus:
+    container_name: prometheus
+    image: prom/prometheus
+    ports:
+      - "20001:9090"
+    volumes:
+      # 前面是 prometheus 配置的本地路径
+      - /root/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
+  # Grafana
+  grafana:
+    container_name: grafana
+    image: grafana/grafana
+    environment:
+      # 配置 Grafana 的默认 URL
+      - GF_SERVER_ROOT_URL=http://192.168.0.252:20002
+      # 配置 Grafana 的默认的 admin 的密码
+      - GF_SECURITY_ADMIN_PASSWORD=123456
+    ports:
+      - "20002:3000"
+    volumes:
+      # 这里并没有使用，只是先留出来备用
+      - /root/prometheus/grafana:/var/lib/grafana

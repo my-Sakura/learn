@@ -1,0 +1,13 @@
+name: github workflows demo
+on: push
+jobs:
+  job1:
+    name: job1-demo
+    runs-on: macos-latest
+    steps:
+      - name: step1
+      - run: echo "hello, world!"
+  job2:
+    name: job2-demo
+    runs-on: macos-latest
+    needs: job1
