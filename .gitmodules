@@ -22,3 +22,9 @@
 [submodule "docker-echart"]
 	path = docker-echart
 	url = https://github.com/my-Sakura/docker-echart.git
+[submodule "crawl"]
+	path = crawl
+	url = https://github.com/my-Sakura/crawl.git
+[submodule "go-sms-server"]
+	path = go-sms-server
+	url = https://github.com/my-Sakura/go-sms-server.git
