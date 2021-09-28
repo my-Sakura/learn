@@ -28,3 +28,6 @@
 [submodule "go-sms-server"]
 	path = go-sms-server
 	url = https://github.com/my-Sakura/go-sms-server.git
+[submodule "scheduler-client"]
+	path = scheduler-client
+	url = https://github.com/my-Sakura/scheduler-client.git
