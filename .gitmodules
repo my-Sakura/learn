@@ -40,3 +40,6 @@
 [submodule "time-line-backend"]
 	path = time-line-backend
 	url = https://github.com/my-Sakura/time-line-backend.git
+[submodule "timeline"]
+	path = timeline
+	url = https://github.com/my-Sakura/timeline.git
