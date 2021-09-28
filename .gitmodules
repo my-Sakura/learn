@@ -1,0 +1,3 @@
+[submodule "go-micro-demo"]
+	path = go-micro-demo
+	url = https://github.com/my-Sakura/go-micro-demo.git

@@ -2,9 +2,10 @@ package main
 
 import (
 	"fmt"
-	"./lrucache"
 	"log"
 	"net/http"
+
+	"./lrucache"
 )
 
 var db = map[string]string{
@@ -13,6 +14,8 @@ var db = map[string]string{
 	"Sam":  "567",
 }
 
+// example: localhost:9999/_sakuracache/[Group]/[key]
+// localhost:9999/_sakuracache/scores/Tom
 func main() {
 	lrucache.RegistGroup("scores", 2<<10, lrucache.GetterFunc(func(key string) ([]byte, error) {
 		log.Println("unhit cache")
