@@ -55,3 +55,6 @@
 [submodule "mini-examination"]
 	path = mini-examination
 	url = https://github.com/my-Sakura/mini-examination.git
+[submodule "vercel-stock"]
+	path = vercel-stock
+	url = https://github.com/my-Sakura/vercel-stock.git
