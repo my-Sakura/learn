@@ -31,3 +31,6 @@
 [submodule "scheduler-client"]
 	path = scheduler-client
 	url = https://github.com/my-Sakura/scheduler-client.git
+[submodule "scheduler-server"]
+	path = scheduler-server
+	url = https://github.com/my-Sakura/scheduler-server.git
