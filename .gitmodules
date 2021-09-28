@@ -43,3 +43,6 @@
 [submodule "timeline"]
 	path = timeline
 	url = https://github.com/my-Sakura/timeline.git
+[submodule "osquery"]
+	path = osquery
+	url = https://github.com/my-Sakura/osquery.git
