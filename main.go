@@ -1,8 +1,17 @@
 package main
 
-import "syscall/js"
+import "time"
 
 func main() {
-	alert := js.Global().Get("alert")
-	alert.Invoke("Hello World!")
+	go hello()
+	time.Sleep(1 * time.Second)
+	aaa()
+}
+
+func hello() {
+	panic("adas")
+}
+
+func aaa() {
+	panic("adsa")
 }
